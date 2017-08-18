@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
  
 // Components
-import NavBar from './components/Global/NavBar/NavBar'
-import Footer from './components/Global/Footer/Footer'
-import Content from './components/Global/Content/Content'
+import NavBar from './Global/NavBar/NavBar'
+import Footer from './Global/Footer/Footer'
+import Content from './Global/Content/Content'
 
 //Assets
-import items from './data/menuData'
-import './App.css';
+import items from '../data/menuData'
+import './css/App.css';
 
 class App extends Component {
 

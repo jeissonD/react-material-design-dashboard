@@ -1,3 +1,4 @@
+{{#compress}}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,9 +19,19 @@
 		
     <div id="root"></div>
 				
+		 <script>
+      // Initial state
+      const initialState = {
+        device: {
+          isMobile: '{{{ isMobile }}}'
+        }
+      };
+      window.initialState = initialState;
+    </script>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 		<script src="/vendor.bundle.js"></script>
 		<script src="/main.bundle.js"></script>
   </body>
 </html>
+{{/compress}}

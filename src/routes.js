@@ -3,10 +3,10 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 //Components
-import App from './App';
-import Contact from './pages/Contact/Contact';
-import About from './pages/About/About';
-import NotFound from './pages/NotFound/NotFound';
+import App from './components/App';
+import Contact from './components/pages/Contact/Contact';
+import About from './components/pages/About/About';
+import NotFound from './components/pages/NotFound/NotFound';
 
 const AppRoutes = () =>
   <App>
